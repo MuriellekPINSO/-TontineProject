@@ -1,0 +1,161 @@
+
+.redressed
+{
+    font-family: 'Redressed', cursive;
+}
+.merriweather
+{
+    font-family: 'Merriweather',serif;
+}
+.tete-navbar
+{
+    background-color: rgba(0,0,0,0.55);
+    font-family: 'Merriweather',serif;
+    box-shadow: 1px,1px,1px rgba(255, 255,255, 0.54);
+    z-index: 98;
+}
+.tete-navbar .nav-link
+{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, border-color.3s ease  ;
+
+}
+.tete-navbar .nav-link:hover
+{
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs-teal);
+}
+.barner
+{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("{{asset('img/enfant.jpeg')}}") center center  fixed no-repeat; 
+   
+ 
+    background-size: cover; 
+    height: 650px;
+}
+
+.barner .barner-desc
+{
+    font-size: 34px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.btn-order
+{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal) ;
+     transition: 0.5s;
+}
+.btn-order:hover,
+.btn-order:active
+{
+      color: rgb(252, 252, 252);
+      background-color:var(--bs-teal)  ;
+}
+.img1
+{
+    height: 300px;
+}
+.button1-marche
+{
+    font-size: 20px;
+    border-radius: 12px;
+}
+.atout-section
+{
+    background-color: rgba(172, 235, 227, 0.537);
+    border-radius: 12px;
+    height: 200px;
+    width: 200px;
+    transition: 0.5s;
+    text-align: center;
+   
+    
+    
+}
+.atout-section:hover,
+.atout-section:active
+{
+    color: rgb(11, 5, 5);
+    background-color:rgb(252, 252, 252) ;
+    box-shadow:5px -5px rgba(110, 113, 110, 0.849);
+    
+}
+.atout-section1
+{
+    background-color: rgba(237, 149, 231, 0.537);
+}
+.atout-section2
+{
+    background-color: rgba(183, 207, 244, 0.537);
+}
+.atout-section3
+{
+    background-color: rgba(243, 187, 239, 0.537);
+}
+.image-section
+{
+    height: 50px; 
+    width: 50px;
+    padding-top: 15px;
+    
+    background-color:rgb(183, 221, 226);
+    border-radius: 25px;
+    color: rgb(6, 53, 94);
+}
+.image-card
+{
+    border-radius: 500px 200px 0 100px;
+}
+.text
+{
+  font-size: small;
+}
+.image-section1
+{
+    height: 300px; 
+    width: 250px;
+    padding-left: 20px;
+  
+    
+    
+    
+   
+}
+.bas-page
+{
+    background-color:rgba(0, 0, 0, 0.55);
+    color: aliceblue;
+}
+.footer-section
+{
+    text-align: center;
+}
+.marche-section
+{
+    padding: 30px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.image-marche
+{
+ 
+
+    border-radius: 1000px 0px 0px 0px;
+    
+}
+.cont-section
+{
+    
+   padding: 100px;
+   flex-wrap: wrap;
+  
+}
+.cont-section1
+{
+    background-color: rgba(40, 151, 12, 0.952);
+    height: 250px;
+    width: 50px;
+    border-radius: 12px;
+}
