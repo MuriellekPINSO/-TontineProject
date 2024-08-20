@@ -6,9 +6,9 @@
     <title>Tontine</title>
    
    
-    <link rel="stylesheet" href="asset/css/bootstrap.min.css">
+    <!-- <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}"> -->
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    <link rel="stylesheet" href="img/fontawesome-free-6.5.2-web/css/all.min.css">
+    <link rel="stylesheet" href="{{asset('img/fontawesome-free-6.5.2-web/css/all.min.css')}}">
     @vite(['resources/sass/app.scss','resources/js/app.js'])
 </head>
 <body>
@@ -87,6 +87,6 @@
       </div>
     </footer>
   
-    <script src="asset/js/bootstrap.bundle.min.js"></script>
+  <!--  <script src="asset/js/bootstrap.bundle.min.js"></script> -->
 </body>
 </html>

@@ -27,7 +27,7 @@
           <div class="card mb-3 border-0 rounded-0" >
             <div class="row ">
               <div class="col-md-6">
-                <img src="img/homme.avif" class="img-fluid image-card " alt="...">
+                <img src="{{asset('img/homme.avif')}}" class="img-fluid image-card " alt="...">
               </div>
               <div class="col-md-6">
                 <div class="card-body">
@@ -65,7 +65,7 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                    
-                    <img src="img/enfant.jpeg" class="d-block w-100" alt="...">
+                    <img src="{{asset('img/enfant.jpeg')}}" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Grâce a la tontine j'ai facilement gerer la rentrée scolaire</h5>
                       <p>DigitalTontine vous aide a mieux gerer l'épargne /crédit</p>
@@ -177,7 +177,7 @@
             <a href="#" class="   btn btn-success rounded-5"> <i class="fa-brands fa-apple"></i>Telecharger pour ios</a>
           </div>
           <div class="col-md-6 p-3 px-4 ">
-            <img  class="image-section1"src="img/phone.jpeg" alt="">
+            <img  class="image-section1"src="{{asset('img/phone.jpeg')}}" alt="">
           </div>
         </div>
       </div>
